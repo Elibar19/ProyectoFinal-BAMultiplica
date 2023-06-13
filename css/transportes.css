@@ -1,0 +1,286 @@
+body {
+    font-family: 'Open sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.comprar-btn {
+    color: #2E64A1;
+    font-style: italic;
+}
+
+
+header {
+    background-color: #2E64A1;
+    padding: 1em 0;
+}
+
+header h1{
+    color: white;
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    bottom: -10px;
+    left: 23%
+    
+}
+
+
+
+.holder {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.navbar-nav li {
+    --bs-navbar-active-color: white;
+    margin: 0 2em;
+}
+
+.navbar-collapse{
+    justify-content: center;
+
+}
+
+nav {
+
+    background-color: #6DA9ED;
+    margin-bottom: 2em;
+    display: flex;
+    
+}
+
+nav ul li a.activo{
+    background-color: #4c76a5;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #2E64A1;
+    font-weight: 400;
+    margin: 0 0 1em;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.homeimg {
+    margin-bottom: 1.5em;
+}
+
+.columnas {
+    overflow: hidden;
+}
+
+.bienvenidos, .testimonios {
+    box-sizing: border-box;
+}
+
+.bienvenidos {
+    width: 75%;
+    padding-right: 2em;
+}
+
+.testimonios {
+    width: 25%;
+}
+
+.testimonio {
+    background-color: #ccc;
+    padding: 1em;
+}
+
+.testimonio .cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2em;
+    display: block;
+    opacity: 0.8;
+}
+
+.testimonio .autor{
+    font-size: 0.9em;
+    text-align: center;
+    margin: 1em 0;
+    display: block;
+}
+
+.historia p{
+    font-size: 0.8em;
+}
+
+.personas{
+    overflow: hidden;
+}
+
+.persona {
+    width: 18%;
+    border: 1px solid gray;
+    border-radius: 0.25em;
+    float: left;
+    margin-left: 2.25%;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.persona img{
+    margin: 10px auto;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.persona h5, .persona h6{
+    text-align: center;
+    font-weight: normal;
+    color: #2E64A1;
+    margin: 0;
+}
+
+.persona h5{
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.persona h6{
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.persona p{
+    font-size: 0.7em;
+    columns: #444;
+    margin: 0 1em 1em;
+}
+
+.persona:first-child{
+    margin-left: 0;
+}
+
+.servicio {
+    border: 1px solid gray;
+    border-radius: 0.7em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.servicio .info {
+    width: 75%;
+}
+
+.servicio .info h4{
+    color: #2E64A1;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 0 1em;
+    border-bottom: 1px solid #2E64A1;
+}
+
+.servicio .info p{
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+
+.servicio img{
+    border-radius: 0.8em;
+}
+
+.servicio:nth-child(even) img{
+    float: right;
+    margin: 0 0 0 1em;
+}
+
+.servicio:nth-child(even) .info{
+    float: left;
+}
+
+.servicio:nth-child(odd) img{
+    float: left;
+    margin: 0 1em 0 0;
+}
+
+.servicio:nth-child(odd) .info{
+    float: right;
+}
+
+.columna{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0.6em;
+}
+
+.columa.left{
+    border-right: 1px solid gray;
+}
+
+.columna.right p{
+    font-size: 0.9em;
+}
+
+.columna.right ul li{
+    font-size: 0.8em;
+}
+
+label{
+    vertical-align: top;
+    width: 20%;
+    display: inline-block;
+}
+
+input, textarea {
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 0.4em 0.6em;
+    font-size: 0.8em;
+    width: 70%;
+}
+
+.acciones input{
+    writing-mode: horizontal-tb !important;
+    background-color: #6DA9ED;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 1em;
+    width: 20%;
+    cursor: pointer;
+    text-align: center;
+}
+
+textarea{
+    height: 10em;
+    resize: none;
+}
+
+.acciones{
+    text-align: center;
+}
+
+footer .footer{
+    background-color: #CCC;
+    clear: both;
+    color: #333;
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+    width: 100%;
+}
+
+.alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
